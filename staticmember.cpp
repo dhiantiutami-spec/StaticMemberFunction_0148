@@ -20,3 +20,11 @@ class Mahasiswa {   //membuat class mahasiswa
         }
 };
 
+int Mahasiswa::nim = 0;
+
+//pendefinisian prosedur - prosedur diluar class
+void Mahasiswa::setID() {
+    id = ++nim;
+}
+
+
